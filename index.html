@@ -1,52 +1,49 @@
 <!DOCTYPE html>
-
 <html>
 <head>
     <meta charset="UTF-8">
     <title>Teh Buttone</title>
 
-```
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
-<style>
-    html, body {
-        margin: 0;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
+    <style>
+        html, body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
 
-    #screen {
-        width: 100%;
-        height: 100%;
-        cursor: pointer;
-        transition: background-color 0.15s;
-        position: relative;
-    }
+        #screen {
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            transition: background-color 0.15s;
+            position: relative;
+        }
 
-    .letter {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-family: Arial, sans-serif;
-        font-size: 30vw;
-        font-weight: bold;
-        line-height: 1;
-        user-select: none;
-        pointer-events: none;
-    }
+        .letter {
+            position: fixed;
+            top: 50%;
+            transform: translateY(-50%);
+            font-family: Arial, sans-serif;
+            font-size: 30vw;
+            font-weight: bold;
+            line-height: 1;
+            user-select: none;
+            pointer-events: none;
+        }
 
-    .s {
-        color: #050a19;
-    }
+        .s {
+            left: 0;
+            color: #050a19;
+        }
 
-    .j {
-        color: #f5f0e6;
-    }
-</style>
-```
-
+        .j {
+            right: 0;
+            color: #f5f0e6;
+        }
+    </style>
 </head>
 
 <body>
